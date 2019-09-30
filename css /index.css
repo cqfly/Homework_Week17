@@ -1,0 +1,501 @@
+body {
+    background-color: #2e2e2e;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+     margin:0;
+     padding:0;
+ 
+}
+
+
+/*  header  */
+ .header {
+    background-color: black;
+    height: 150px;
+    width:100%;
+    position: relative;
+    display: inlibe-block;
+ }
+
+ #logo {
+    height: 50px;
+    position: absolute;
+    left: 130px;
+    top: 15px;
+    }
+
+ #logo img{
+    height: 109px;
+ }
+
+ ul{
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem;
+    font-size: 1.5rem;
+    font-style: none;
+    
+    
+ }
+
+ li a{
+    color:white;
+    font-style: normal;
+    font-size: 1rem;
+    margin:0 1rem;
+    
+  }
+
+ li{
+    display: inline;
+} 
+  #menu{
+      display: none;
+  }
+  
+/* intro */
+  button{
+    height:42px;
+    width: 153px;
+    background-color: #E50019;
+    border-radius: 21px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    
+  }
+  .mainPage{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+     
+      height:700px;
+      
+  }
+
+
+    .intro{
+      
+        grid-column-start: 1;
+        grid-column-end: 2;
+        position: relative;
+    } 
+
+    .allIntro{
+        position: absolute;
+        left: 140px;
+        top: 300px;
+    }
+    
+   
+    .intro1{
+       font-size: 3rem;
+       font-style: bold;
+       margin:0;
+    }
+    .intro2{
+        color: #d0111d;
+        font-weight: 200;
+        line-height: 1;
+        margin-top: 0;
+    }
+
+   .myself{
+       margin: 0;
+       
+       grid-column-start: 2;
+       grid-column-end: 3;
+       position: relative;
+      
+   }
+
+   .myPic{
+       max-width: 30rem;
+       width: 100%;
+       height: auto;
+       position: absolute;
+       right: 0rem;
+   }
+   .hireMe {
+       position:absolute;
+       right: 50px;
+       bottom: 40px;
+   }
+   .arrow {
+       position:absolute;
+       bottom: 80px;
+   }
+
+   /* projects  .......*/
+ /*.gridChild{
+    border: 1px solid white;
+ } */
+ .projects{
+    display: grid;
+    height: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url(/images/project_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .proImg{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;
+   }
+ .edu{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width:100%;
+    max-width: 20rem;
+    height: auto;
+ }
+
+ .proIntro{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: relative;
+    
+  }
+
+ .intro4{
+    position: absolute;
+    top:53%;
+    left: 5%;
+    color: #707070;
+
+  }
+  .title{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+ }
+
+ .View{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    position: relative;
+    
+ }
+
+
+ .viewP {
+    position: absolute;
+    left:124px;
+    top: 65%;
+ }
+.viewP:hover{
+     transform: scale(1.2);
+ }
+ 
+
+      
+  
+
+/* footer*/
+.footer{
+    background-color: black;
+    position: relative;
+    height: 450px;
+
+}
+#contact1{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left:10%;
+    top:20%;
+
+ }
+#contact2{
+    color:#707070;
+    font-size:1.5rem;
+    position: absolute;
+    left:10%;
+    top:32%;
+
+ }
+#contact3{
+    color:#707070;
+    font-size:1.2rem;
+    position: absolute;
+    left:10%;
+    top:45%;
+
+
+ }
+ 
+a {
+    font-style: italic;
+    color: #9BF3FF;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #d0111d;
+}
+
+
+
+p{
+    
+    margin-top: 24px;
+    color: white;
+    font-weight: 50;
+    font-size: 24px; 
+    line-height: 1.5;
+    
+}
+
+
+
+.myself{
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+
+.social{
+    position: absolute;;
+   bottom: 100px;
+    right: 10%;
+    text-align: center;
+ 
+    
+}
+.btn{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #E50019;
+    margin: 30px;
+    color: black;
+    box-shadow: 0 5px 15px -5px rgb(167, 2, 21);
+    border-radius: 30%;
+}
+
+.btn i{
+    line-height: 50px;
+    font-size: 40px;
+
+}
+.btn :hover{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px){
+ body {
+    background-color: #2e2e2e;
+    font-family: 'Lato', sans-serif;
+    font-size: 5px;
+     margin:0;
+     padding:0;
+ 
+ }
+   
+ .header {
+    background-color: black;
+    height: 150px;
+    width:100%;
+    position: relative;
+    display: inlibe-block;
+ }
+
+ #logo {
+    height: 35px;
+    position: absolute;
+    left: 45%;
+    top: 22px;
+    }
+
+ #logo img{
+    height: 90px;
+ }
+
+ ul{
+     display: none;
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem;
+    font-size: 1.5rem;
+    font-style: none;
+    
+    
+ }
+
+ li a{
+    color:white;
+    font-style: normal;
+    font-size: 1rem;
+    margin:0 1rem;
+    
+  }
+
+ li{
+    display: inline;
+} 
+ #menu{
+     position: absolute;
+
+
+    
+
+ }
+ /* intro */
+ button{
+    height:42px;
+    width: 153px;
+    background-color: #E50019;
+    border-radius: 21px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    
+  }
+  .mainPage{
+      display: inline-block;
+    
+      width:100%;
+      height:900px;
+      
+  }
+
+
+    .intro{
+        border: 1px solid white;
+        width:100%;
+
+    
+        position: relative;
+    } 
+
+    .allIntro{
+      
+        margin:0;
+        position: absolute;
+        right:20px;
+        top: 20px;
+    }
+    
+   
+    .intro1{
+       font-size: 3rem;
+       font-style: bold;
+       margin:0;
+    }
+    .intro2{
+        color: #d0111d;
+        font-weight: 200;
+        line-height: 1;
+        margin-top: 0;
+    }
+
+   .myself{
+      
+       margin: 0;
+       position: relative;
+      
+   }
+
+   .myPic{
+       top:350px;
+       min-width: 150px;
+       width: 100%;
+       height:auto;
+       
+       position: absolute;
+      
+   }
+   .hireMe {
+       position:absolute;
+       right: 50px;
+       top: 850px;
+   }
+   .arrow {
+       display:none;
+       position:absolute;
+       bottom: 80px;
+   }
+
+    /* projects  .......*/
+ /*.gridChild{
+    border: 1px solid white;
+ } */
+ .projects{
+    
+    height: 900px;
+    
+    background-image: url(/images/project_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+ }
+ .proImg{
+    
+    
+    position: relative;
+   }
+ .edu{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width:240px;
+    
+    height: auto;
+ }
+
+ 
+
+ .intro4{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: #707070;
+
+  }
+  .title{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+ }
+
+ .View{
+    position: relative;
+    bottom: 0;
+    
+ }
+
+
+ .viewP {
+    position: absolute;
+    left: 0px;
+    top: 93%;
+ }
+.viewP:hover{
+     transform: scale(1.2);
+ }
+ .social{
+    position: absolute;;
+   bottom: 100px;
+    right: 30%;
+    text-align: center;
+ 
+ }
+  
+
+
+
+}
